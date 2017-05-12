@@ -3,6 +3,29 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
+<style>
+.article{
+	background:#39F;
+}
+.article div{color:#fff}
+</style>
+<script>
+window.addEventListener("load", function(){
+	var data = {
+		title: "es6学习"	,
+		content: "fadfadsfafafddasfadsfadsfdafsafads"
+	};
+	var html = `
+		<div class="article">
+			<h1>${title}</h1>
+			<div>
+				${content}
+			</div>
+		</div>
+	`;	
+	document.body.innerHTML = html;
+}, false);
+</script>
 </head>
 
 <body>
